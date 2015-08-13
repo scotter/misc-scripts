@@ -34,6 +34,3 @@ require 'fileutils'
 files_to_copy.each do |f|
   FileUtils.cp(f, 'C:/Collected for Google Drive')
 end
-
-
-
